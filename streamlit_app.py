@@ -13,7 +13,7 @@ st.write(stock)
 
 option = st.selectbox(
     'What would you like to buy?',
-    stock.col2.to_list()
+    stock.col1.to_list()
 )
 
 st.write("You selected:", option)
