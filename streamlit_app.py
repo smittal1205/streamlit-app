@@ -8,3 +8,9 @@ st.write(pd.DataFrame(
         "col2":[10, 20, 40, 20]
     }
 ))
+st.line_chart(pd.DataFrame(
+    {
+        "col1":['Apple', 'Banana', 'Pear', 'Orannge'],
+        "col2":[10, 20, 40, 20]
+    }
+))
